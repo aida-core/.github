@@ -1,0 +1,95 @@
+name: Bug report
+description: Report something that doesn't work the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. A few notes before you start:
+
+        - **Security issues:** please follow [SECURITY.md](https://github.com/aida-core/.github/blob/main/SECURITY.md) instead.
+        - **Questions / "is this possible":** please use [Discussions](https://github.com/orgs/aida-core/discussions).
+        - The more reproducible your report is, the faster we can fix it.
+
+  - type: input
+    id: version
+    attributes:
+      label: Plugin / project version
+      description: e.g. `aida-core v1.4.2`. Run `/plugin list` if you're not sure.
+      placeholder: "aida-core v1.4.2"
+    validations:
+      required: true
+
+  - type: input
+    id: claude_code_version
+    attributes:
+      label: Claude Code version
+      description: From `/version` or your install method.
+      placeholder: "e.g. 2.0.42"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows (WSL)
+        - Windows (native)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior. Include error messages verbatim if possible.
+      placeholder: "When I ran X, I got Y."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: "I expected Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: A minimal, ordered list. The shorter and more deterministic, the better.
+      placeholder: |
+        1. Run `/plugin marketplace add aida-core/aida-marketplace`
+        2. Run `/plugin install aida-core@aida`
+        3. Run `/aida config`
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs / output
+      description: Paste any relevant terminal output, error stacks, or config. Use code fences.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-flight
+      options:
+        - label: I searched existing issues (open and closed) and didn't find a duplicate
+          required: true
+        - label: I'm running a current version (not an end-of-life release)
+          required: true
+        - label: This is not a security issue (those go to [SECURITY.md](https://github.com/aida-core/.github/blob/main/SECURITY.md))
+          required: true

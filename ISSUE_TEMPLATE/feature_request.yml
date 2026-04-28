@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest a new feature or enhancement.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Before filing, consider whether this is better as a [Discussion](https://github.com/orgs/aida-core/discussions) — that's the right place to float ideas before they're scoped enough to be issues.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the user-level problem, not the implementation. "I want to do X but it's painful because Y" beats "add option Z".
+      placeholder: "I keep having to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see?
+      description: Describe your preferred solution. It's fine to propose multiple options.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: What workarounds exist today? What other approaches did you reject?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, screenshots, related issues, prior art from other tools.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-flight
+      options:
+        - label: I searched existing issues and discussions and didn't find a duplicate
+          required: true
+        - label: I've described the *problem*, not just a specific solution
+          required: true
