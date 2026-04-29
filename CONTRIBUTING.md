@@ -37,6 +37,15 @@ Run the project's own tests and linters locally before opening a PR. CI must be 
 
 By contributing, you agree that your contribution is licensed under the same license as the repo (typically MPL-2.0 — see the repo's `LICENSE`).
 
+Hand-authored source files should carry an SPDX header so OSS license-inventory tools can attribute them automatically:
+
+- **Code, shell, YAML, TOML, hand-authored config:** `# SPDX-License-Identifier: MPL-2.0` near the top (after any shebang)
+- **Markdown** (including agents, skills, commands): `<!-- SPDX-License-Identifier: MPL-2.0 -->` on line 1, or after the YAML frontmatter block if present
+- **Skip:** JSON (no comment syntax), generated or vendored files, lockfiles, fixtures, the `LICENSE` file itself
+
+For copyright attribution, use `SPDX-FileCopyrightText: <year> The AIDA Core Authors` and list contributors in an `AUTHORS` file at the repo root. This keeps file headers stable as the contributor list changes — substantive contributors are added to `AUTHORS` on first merged PR.
+
+
 ## Code of Conduct
 
 Participation is governed by the org [Code of Conduct](CODE_OF_CONDUCT.md). Be the kind of person you want to collaborate with.
