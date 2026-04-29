@@ -1,0 +1,5 @@
+# Required reviewers for the org community-profile repo.
+# Only the org owner should be able to land changes here, since the
+# content of profile/README.md renders on every visitor's view of
+# github.com/aida-core.
+* @oakensoul
