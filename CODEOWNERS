@@ -1,0 +1,7 @@
+# Required reviewers for the .github repo.
+# This repo holds the org's community health files (README, profile,
+# templates, etc.) and represents the aida-core org publicly. Only
+# the org owner should be able to land changes here. Branch
+# protection isn't available on the Free plan, so this is
+# defense-in-depth via review requirement plus social convention.
+* @oakensoul
