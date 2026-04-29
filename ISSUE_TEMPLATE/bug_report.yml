@@ -9,7 +9,6 @@ body:
         Thanks for taking the time to report a bug. A few notes before you start:
 
         - **Security issues:** please follow [SECURITY.md](https://github.com/aida-core/.github/blob/main/SECURITY.md) instead.
-        - **Questions / "is this possible":** please use [Discussions](https://github.com/orgs/aida-core/discussions).
         - The more reproducible your report is, the faster we can fix it.
 
   - type: input

@@ -6,8 +6,6 @@ A quick map of where to ask what:
 |---|---|
 | Report a bug in a specific plugin | The plugin's repo → `Issues` → `New issue` |
 | Request a feature for a specific plugin | The plugin's repo → `Issues` → `New issue` |
-| Ask "how do I..." or "is this possible..." | Org [Discussions](https://github.com/orgs/aida-core/discussions) |
-| Discuss an idea before filing an issue | Org [Discussions](https://github.com/orgs/aida-core/discussions) |
 | Report a security vulnerability | Follow [SECURITY.md](SECURITY.md) — *do not* file a public issue |
 | Report a Code of Conduct violation | Email **github@oakensoul.com** |
 

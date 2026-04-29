@@ -4,7 +4,7 @@ The AIDA organization adopts the [Contributor Covenant, version 2.1](https://www
 
 ## Scope
 
-This Code of Conduct applies in all org-managed spaces — every repository under <https://github.com/aida-core>, the org's GitHub Discussions, and any official communication channel — and when an individual is officially representing the org in public spaces.
+This Code of Conduct applies in all org-managed spaces — every repository under <https://github.com/aida-core> and any official communication channel — and when an individual is officially representing the org in public spaces.
 
 ## Reporting
 
@@ -13,7 +13,7 @@ To report behavior you believe violates this Code of Conduct, contact the mainta
 When reporting, please include:
 
 - What happened (links, screenshots, or quotes if available)
-- Where it happened (repo, issue, discussion, etc.)
+- Where it happened (repo, issue, etc.)
 - Anyone else involved or who witnessed it
 - Whether you've already taken any action
 

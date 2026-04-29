@@ -5,7 +5,6 @@ Thanks for your interest in contributing. This guide is the org-wide default —
 ## Where to start
 
 - **Bug reports & feature requests** — file an issue on the relevant plugin's repo, not on the org-level repos. The plugin map lives on the [org profile](https://github.com/aida-core).
-- **Framework-wide discussion** — use the org [Discussions](https://github.com/orgs/aida-core/discussions).
 - **Security issues** — please follow [SECURITY.md](SECURITY.md) instead of filing a public issue.
 - **Just need help?** — see [SUPPORT.md](SUPPORT.md).
 

@@ -3,11 +3,6 @@ description: Suggest a new feature or enhancement.
 title: "[Feature] "
 labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for the suggestion! Before filing, consider whether this is better as a [Discussion](https://github.com/orgs/aida-core/discussions) — that's the right place to float ideas before they're scoped enough to be issues.
-
   - type: textarea
     id: problem
     attributes:
@@ -46,7 +41,7 @@ body:
     attributes:
       label: Pre-flight
       options:
-        - label: I searched existing issues and discussions and didn't find a duplicate
+        - label: I searched existing issues and didn't find a duplicate
           required: true
         - label: I've described the *problem*, not just a specific solution
           required: true

@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions and ideas
-    url: https://github.com/orgs/aida-core/discussions
-    about: Use Discussions for questions, ideas, and "is this possible..." conversations.
   - name: Security vulnerabilities
     url: https://github.com/aida-core/.github/blob/main/SECURITY.md
     about: Please report security issues privately, not as public issues.

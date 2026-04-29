@@ -47,7 +47,7 @@ A healthy ecosystem of plugins, built on consistent foundations, that lets every
 
 ## Contributing
 
-Bug reports, feature requests, and PRs are welcome — each plugin lives in its own repo under this org, so file issues there. For framework-wide discussion, use the org [Discussions](https://github.com/orgs/aida-core/discussions).
+Bug reports, feature requests, and PRs are welcome — each plugin lives in its own repo under this org, so file issues there.
 
 - [Contributing guide](https://github.com/aida-core/.github/blob/main/CONTRIBUTING.md)
 - [Code of Conduct](https://github.com/aida-core/.github/blob/main/CODE_OF_CONDUCT.md)
